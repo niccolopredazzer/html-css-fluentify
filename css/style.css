@@ -61,6 +61,7 @@ nav li a {
 .tutor {
     float: left;
     margin-right: 10px;
+    font-size: 15px;
 }
 .login {
     float: left;
@@ -95,7 +96,7 @@ nav li a {
 }
 .banner img {
     position: absolute;
-    left:80%;
+    left:85%;
     transform-origin: 0 0;
     transform: scale(.5) translate(-50px,30px);
 }
@@ -110,8 +111,14 @@ nav li a {
     line-height: 55px;
     padding-right: 50px;
 }
+.piano {
+    position: relative;
+    top: 40px;
+    margin-top: 50px;
+}
 .piano a {
-    padding: 5px 20px;
+    font-size: 15px;
+    padding: 12px 15px;
     color: white;
     background-color: #7eb801;
     border: 1px solid #7eb801;
