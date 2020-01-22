@@ -8,8 +8,9 @@
     display: table;
     clear: both;
 }
-.container-fullwidth {
+.container-fullwidth-blue {
     background-color: #0d325a;
+    height: 490px;
 }
 .container {
     width: 90%;
@@ -87,4 +88,33 @@ nav li a {
     border-radius: 5px;
     margin-left: 5px;
     text-decoration: none;
+}
+.banner {
+    position: relative;
+    float: left;
+}
+.banner img {
+    position: absolute;
+    left:80%;
+    transform-origin: 0 0;
+    transform: scale(.5) translate(-50px,30px);
+}
+.scegli {
+    width: 700px;
+    padding-top: 90px;
+    float: left;
+}
+.scegli p {
+    font-size: 45px;
+    color: white;
+    line-height: 55px;
+    padding-right: 50px;
+}
+.piano a {
+    padding: 5px 20px;
+    color: white;
+    background-color: #7eb801;
+    border: 1px solid #7eb801;
+    text-decoration: none;
+    border-radius: 5px;
 }
