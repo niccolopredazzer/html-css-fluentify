@@ -156,6 +156,7 @@ nav li a {
     width: 33.33%;
     float: left;
     text-align: center;
+    padding: 20px 150px;
 }
 .card img {
     height: 200px;
