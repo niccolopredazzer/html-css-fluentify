@@ -12,7 +12,7 @@
     background-color: #0d325a;
 }
 .container {
-    width: 80%;
+    width: 90%;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -22,18 +22,21 @@ header {
 }
 .immagine-menu {
     float: left;
+    margin-top: 10px;
     margin-right: 30px;
 }
 nav {
     text-align: center;
-    height: 50px;
+    height: 60px;
     margin-right: 10px;
 }
-
+nav a:hover {
+    color: orange;
+}
 nav ul {
     display: inline-block;
     float: left;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 nav li {
@@ -47,4 +50,41 @@ nav li a {
     color: white;
     text-decoration: none;
     margin: 0 10px;
+}
+.right {
+    float: right;
+    position: relative;
+    bottom: 35px;
+    left: 40px;
+}
+.tutor {
+    float: left;
+    margin-right: 10px;
+}
+.login {
+    float: left;
+    border: 1px solid #4e8cb6;
+    border-radius: 5px;
+}
+.tutor a {
+    text-decoration: none;
+    color: #94a0b0;
+}
+.login a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+
+}
+.struttura {
+    float: left;
+    margin-left: 5px;
+}
+.struttura a {
+    color: white;
+    padding: 5px 10px;
+    background-color: #7eb801;
+    border-radius: 5px;
+    margin-left: 5px;
+    text-decoration: none;
 }
