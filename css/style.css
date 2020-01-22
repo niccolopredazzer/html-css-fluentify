@@ -3,3 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+.claerfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.container-fullwidth {
+    background-color: #0d325a;
+}
