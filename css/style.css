@@ -125,3 +125,26 @@ nav li a {
     text-decoration: none;
     border-radius: 5px;
 }
+.container-fullwidth-grigio {
+    width: 100%;
+    background-color: #f9f9f9;
+
+}
+.container-due {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0px auto;
+    text-align: center;
+}
+.text {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.text p {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.text span {
+    font-size: 18px;
+    color: #999;
+}
