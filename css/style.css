@@ -8,6 +8,9 @@
     display: table;
     clear: both;
 }
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 .container-fullwidth-blue {
     background-color: #0d325a;
     height: 490px;
@@ -149,7 +152,7 @@ nav li a {
     color: #999;
 }
 .container-tre {
-    width: 100%;
+    width: 90%;
     height: 200px;
 }
 .card {
